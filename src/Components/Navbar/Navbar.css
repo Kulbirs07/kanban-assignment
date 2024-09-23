@@ -1,0 +1,102 @@
+.nav {
+    width: 100%;
+    border-bottom: 1px solid var(--grey1, #ccc); /* Added fallback for the color variable */
+}
+
+.nav-container {
+    width: 95%;
+    margin: 0 auto; /* Improved margin shorthand */
+    padding: 1rem 0;
+}
+
+.nav-disp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0.8rem;
+    width: max-content; /* Using max-content for better fitting */
+    border: 1px solid var(--grey1, #ccc); /* Added fallback for grey1 */
+    box-shadow: 0 0 5px 2px var(--grey1, #ccc); /* Updated box-shadow shorthand */
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Added smooth hover transition */
+}
+
+.nav-disp-btn:hover {
+    box-shadow: 0 0 10px 5px var(--grey3, #bbb); /* Added fallback for grey3 and hover effect */
+}
+
+.nav-disp-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-disp-filter {
+    margin-right: 0.6rem;
+}
+
+.nav-disp-filter > img {
+    height: 14px;
+    object-fit: contain; /* Added to ensure images are scaled proportionally */
+    filter: grayscale(1); /* Added subtle effect to maintain a consistent color scheme */
+}
+
+.nav-disp-heading {
+    font-weight: 500;
+    color: var(--textdark, #333); /* Added a fallback color */
+}
+
+.nav-disp-drop {
+    margin-left: 0.3rem;
+}
+
+.nav-disp-drop > img {
+    height: 16px;
+}
+
+.nav-disp-dropdown {
+    display: none;
+    width: max-content;
+    position: absolute;
+    z-index: 2;
+    margin-top: 0.6rem;
+    padding: 0.8rem 1rem;
+    background-color: var(--grey3, #eee); /* Added fallback for grey3 */
+    border: 1px solid var(--grey1, #ccc); /* Added fallback for grey1 */
+    border-radius: 0.5rem;
+}
+
+.nav-disp-dropdown-show {
+    display: block;
+}
+
+.nav-disp-filters {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Added wrap to handle smaller screen responsiveness */
+}
+
+.nav-disp-filters:first-child {
+    margin-bottom: 0.5rem;
+}
+
+.nav-dropdown-category {
+    color: var(--textgrey, #888); /* Added fallback color */
+    font-weight: 500;
+}
+
+.nav-selector {
+    padding: 0.3rem;
+    width: 100px;
+    border-radius: 0.3rem;
+    border: 1px solid var(--grey1, #ccc); /* Corrected border-color shorthand */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Added smooth transition for UX */
+}
+
+.nav-selector:hover {
+    background-color: var(--lightgrey, #f0f0f0); /* Added a hover background effect */
+}
