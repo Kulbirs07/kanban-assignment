@@ -53,6 +53,13 @@ To run the Kanban board application locally, follow these steps:
 
 5. The application will save your view state, so you can return to your preferred settings even after a page reload.
 
+## ScreenShorts
+![1](https://github.com/user-attachments/assets/21ddcfb4-9e4a-4663-b5ca-ec2b79b038be)
+
+![2](https://github.com/user-attachments/assets/412e3083-a522-415c-80bf-62b80118c7df)
+
+![3](https://github.com/user-attachments/assets/8c93f211-0f7c-4f2e-bb9a-77ccbd0e7ac9)
+
 
 ## Contributing
 
